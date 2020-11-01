@@ -1,0 +1,497 @@
+
+/* col-lg */
+@media screen and (max-width: 1199.98px) {
+
+	.services__heading {
+		line-height: 50px;
+	}
+	.title__block {
+		padding-left: 100px;
+	}
+
+	.feedback__text {
+		padding-left: 100px;
+	}
+	.title__bold {
+		font-size: 15px;
+		margin-right: 30px;
+	}
+
+	.order__btn {
+		line-height: 20px;
+	}
+ 
+ /* -- Страница о компании -- */
+	.big-text__third, .big-text__third-blue {
+		font-size: 25px;
+	}
+
+	.partners__text {
+		line-height: 17px;
+	}
+/* -- Страница контакты-- */
+	.contacts__arrow {
+ 		margin-left: -25px;
+	}
+
+	.form__btn {
+		line-height: 20px;
+	}
+
+	.phone__number, .e-mail__adress, .skype__username {
+		font-size: 15px;
+	}
+}
+
+/* col-md */
+@media screen and (max-width: 991.98px) {
+	.header__title {
+		margin-left: -330px;
+	}
+
+	.title-text {
+		font-size: 80px;
+		letter-spacing: 0.4em;
+	}
+
+	.title-text__bottom {
+		font-size: 51px;
+		letter-spacing: 0.2em;
+	}
+
+	.advantages__item {
+		margin-bottom: 30px;
+	}
+	
+	.advantages__item_third {
+		margin-bottom: 90px;
+	}
+
+	
+	.services__heading {
+		margin: 70px 0px 130px 0px;
+	}
+
+	.feedback__heading {
+		line-height: 55px;
+	}
+
+	.order__btn {
+		font-size: 14px;
+	}
+
+	.feedback__ring {
+		margin-left: -45px;
+	}
+
+	.feedback__arrow_prev {
+		left: -85px;
+	}
+
+/* -- Страница о компании -- */
+	.about__title-text {
+		font-size: 75px;
+		letter-spacing: 0.2em;
+	}
+	
+	.about__title {
+		top: 30%;
+		margin-left: -341px;
+	}
+
+	.big-text__first {
+	    text-align: center;
+	    font-size: 15px;
+	}
+
+	.big-text__first-blue {
+	    font-size: 25px;
+	}
+
+	/* -- Страница недвижимость и переезд -- */
+
+	.move__title {
+		margin-left: -350px;
+	}
+
+	.move__title-text {
+		font-size: 51px;
+		letter-spacing: 0.2em;
+	}
+
+	#move-offer {
+		background: #fff;
+		height: 700px;
+		overflow-x: hidden;
+	}
+
+	.move-offer__block {
+		position: relative;
+		box-shadow: none;
+		margin: 0px;
+	}
+
+	/* -- Страница контакты-- */
+
+	.contacts__title {
+		top: 30%;
+	}
+
+	.contacts__block {
+		position: relative;
+		box-shadow: none;
+		margin-top: 0px; 
+	}
+
+	#contacts {
+		background: #fff;
+		height: 650px;
+		overflow-x: hidden;
+	}
+
+	.form__input {
+		height: 35px;
+		padding: 15px 0px 15px 36px;
+		font-size: 10px;
+	}
+
+	.form__btn {
+		line-height: 15px;
+		height: 50px;
+		font-size: 12px;
+		padding: 10px 40px 10px 50px;
+	}
+
+	.form__subheading {
+		letter-spacing: 0.05em;
+		font-size: 15px;
+	}
+
+	.form__heading, .form__heading_big {
+		font-size: 19px;
+	}
+
+	.phone__number, .e-mail__adress, .skype__username {
+		font-size: 12px;
+	}
+
+}
+
+
+
+/* col-sm */
+
+@media screen and (max-width: 767.98px) {
+	
+	.header__title {
+		margin-left: -265px;
+	}
+
+	.title-text {
+		font-size: 70px;
+		letter-spacing: 0.3em;
+		line-height: 70px;
+	}
+
+	.title-text__bottom {
+		font-size: 35px;
+		letter-spacing: 0.1em;
+	}
+
+	.advantages__heading {
+		line-height: 55px;
+		margin: 60px 0px 50px 0px;
+	}
+
+	.transfer__heading {
+		line-height: 55px;
+	}
+
+	.advantages__item {
+    	margin-bottom: 20px;
+	}
+
+	.advantages__item_third {
+		margin-bottom: 70px;
+	}
+
+	.transfer__arrow_top {
+	    margin-top: 0px;
+	}
+
+	.transfer__arrow_bottom {
+	    margin-top: 0px;
+	}
+
+	.services__heading {
+    	margin: 70px 0px 150px 0px;
+	}
+
+	.ring__img {
+        top: -40%;
+	}
+
+	.offer__heading {
+		line-height: 25px;
+	}
+
+	.feedback__heading {
+		margin: 70px 0px 130px 0px;
+	}
+ 	
+ 	.title__block {
+	    padding-left:0px;
+	    display: flex;
+	    flex-direction: column;
+	    align-items: center;
+	    padding: 70px 40px 22px 40px;
+	}
+
+	.title__bold, .title__link {
+		margin-bottom: 10px;
+		margin-right: 0px;
+	}
+
+	.title__bold {
+		font-size: 18px;
+	}
+
+	.feedback__ring {
+	    margin-top: -80px;
+	    top: 0%;
+	    left: 50%;
+	    margin-left: -66px;
+	}
+
+	.feedback__text {
+		padding-left: 40px;
+		text-align: center;
+	}
+
+	/* -- Страница о компании -- */
+
+	#about-us {
+		height: 1750px;
+		overflow-x: hidden;
+	}
+
+	.about__block {
+		position: relative;
+		margin: 0px;
+	}
+
+	.about__title-text {
+		line-height: 85px;
+		letter-spacing: 0.1em;
+	}
+	
+	.about__arrow {
+		margin-left: -30px;
+	}
+
+	.big-text__second {
+		font-size: 15px;
+
+		margin: 20px 0px 40px 0px;
+	}
+
+	.partners__left, .partners__right {
+		height: 450px;
+	}
+
+	/* -- Страница недвижимость и переезд -- */
+
+	.move__title {
+		margin-left: -268px;
+	}
+
+	.move__title-text {
+		font-size: 45px;
+		letter-spacing: 0.2em;
+	}
+
+	.move__arrow {
+	 	margin-left: -25px;
+	}
+
+	#move-offer {
+		height: 1000px;
+		text-align: center;
+	}
+
+	.move-offer__img {
+		margin-bottom: 30px;
+		margin-top: 30px;
+	}
+
+	.move-offer__info_bottom {
+		margin-top: 0px;
+	}
+
+	/* -- Страница контакты-- */
+
+	.contacts__title-text {
+		font-size: 60px;
+	}
+
+	.contacts__title {
+		margin-left: -240px;
+	}
+
+	#contacts {
+		height: 1350px;
+	}
+
+	.contacts__number {
+		text-align: center;
+		background: url(../img/phone-page4.png) no-repeat center top;
+		margin-top: 50px;
+	}
+
+	.contacts__e-mail {
+		text-align: center;
+		background: url(../img/Email-page4.png) no-repeat center top;
+		
+	}
+
+	.contacts__skype {
+		text-align: center;
+		background: url(../img/Skype-page4.png) no-repeat center top;
+	}
+
+	.phone__heading, .e-mail__heading, .skype__heading {
+		text-align: center;
+		padding-top: 70px;
+		margin-left: 0px;
+	}
+
+	.phone__number, .e-mail__adress, .skype__username {
+		margin-left: 0px;
+		font-size: 16px;
+	} 
+
+	 .form__input {
+		height: 50px;
+		padding: 29px 0px 28px 36px;
+		font-size: 13px;
+	} 
+
+	.form__btn {
+		line-height: 20px;
+		height: 70px;
+		font-size: 13px;
+		padding: 17px 40px 15px 50px;
+	}
+
+	.form__subheading {
+		letter-spacing: 0.1em;
+		font-size: 18px;
+	}
+
+	.form__heading {
+		font-size: 20px;
+	}
+
+	.form__heading_big {
+		font-size: 25px;
+	}
+	
+}
+
+
+
+/* col-sm */
+@media screen and (max-width: 694.98px) {
+
+	.feedback__arrow_prev {
+		left: -50px;
+	}
+
+	.feedback__arrow_next {
+    	right: -50px;
+	}
+	
+}
+
+/* col-sm */
+@media screen and (max-width: 619.98px) {
+	
+	.feedback__nav {
+		display: none;
+	}
+}
+
+/* col-sm */
+@media screen and (max-width: 579.98px) {
+
+/* -- Страница о компании -- */
+	#about-us {
+		background: #fff;
+	}
+	
+	.about__block {
+		box-shadow: none;
+	} 
+}
+
+/* col-xs */
+@media screen and (max-width: 575.98px) {
+	section, header, footer {
+		overflow-x: hidden;
+	}
+
+	.header__title {
+		margin-left: -220px;
+	}
+	
+	.title-text {
+		font-size: 65px;
+		letter-spacing: 0.2em;
+	}
+	
+	.title-text__bottom {
+		font-size: 35px;
+		letter-spacing: 0.1em;
+	} 
+	.ring__img {
+    	top: -35%;
+	}
+
+/* -- Страница о компании -- */
+
+	.about__title-text {
+		font-size: 55px;
+	}
+
+	#about-us {
+		height: 1820px;
+	}
+
+/* -- Страница недвижимость и переезд -- */
+	.move__title {
+		margin-left: -240px;
+	}
+
+	.move__title-text {
+		font-size: 40px;
+		line-height: 60px;
+	}
+
+	#move-offer {
+		height: 1050px;
+	}
+
+	/* -- Страница контакты-- */
+
+	.contacts__title-text {
+		font-size: 65px;
+		letter-spacing: 0.1em;
+	}
+	
+	.contacts__title {
+		margin-left: -205px;
+	}
+	
+}
+
+

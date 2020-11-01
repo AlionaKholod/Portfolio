@@ -1,0 +1,306 @@
+body {
+	font-family: Tahoma, sans-serif;
+	padding: 0px;
+	margin: 0px;
+	color: #2f383b;
+	letter-spacing: 0.02em;
+	line-height: 33px;
+}
+
+div, p, input, button, form {
+	box-sizing: border-box;
+}
+
+.clearfix:after {
+	content:'';
+	display: table;
+	width: 100%;
+	clear: both;
+}
+.container {
+	width: 940px;
+	margin: 0px auto;
+	
+}
+
+ .about-me__title, .why__title {
+	font-size: 26px;
+	text-align: center;
+	margin-top: 80px;
+	margin-bottom: 80px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.why__title {
+	margin-top: 155px;
+	margin-bottom: 68px;
+}
+
+.mission__title, .merit__title {
+	font-size: 22px;
+	margin-top: 0px;
+	margin-bottom: 14px;
+	text-transform: uppercase;
+}
+
+
+.pseudo:after {
+	content:'';
+	display: block;
+	background: #4e8598;
+	width: 72px;
+	height: 3px;
+	margin-bottom: 25px;
+}
+
+.button {
+	height: 13px;
+	width: 150px;
+	font-size: 13px;
+	color: #fff;
+	line-height: 38px;
+	margin: 0px auto;
+	padding: 18px 25px;
+	border: 1px solid #fff;
+	border-radius: 28px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.button:hover {
+	background: #fff;
+	color: #4e8598;
+}
+
+.button:active {
+	background: #2f383b;
+	color: #fff;
+}
+
+/* Шапка */
+
+header {
+	background: #4e8598;
+	min-height: 668px;
+	color: #fff;
+	text-align: center;
+	font-weight: bold;
+}
+
+.logo {
+	margin: 0px auto;
+	margin: 54px 0px 186px 0px;
+	height: 29px;
+	width: 121px;
+}
+
+h1 {
+	height: 68px;
+	width: 594px;
+	font-size: 27px;
+	line-height: 38px;
+	margin: 0px auto;
+	margin-bottom: 29px;
+	text-transform: uppercase; /* все заглавные буквы */
+}
+
+.arrow {
+	display: block;
+	margin: 0px auto;
+	margin-top: 177px;
+}
+
+/* обо мне */
+
+.mission {
+	float: left;
+	width: 398px;
+	margin-right: 89px;
+	display: block;
+}
+
+.mission__paragraph {
+	font-size: 15px;
+	line-height: 24px;
+	margin: 0px;
+}
+
+.mission__paragraph:last-child {
+	margin-top: 35px;
+}
+.merit {
+	float: left;
+}
+
+.marit__item {
+	padding: 0;
+	margin: 0;
+}
+
+.merit__bug {
+	display: block;
+	background: url(../img/bug.png) no-repeat left center;
+	padding: 14px 0px 20px 60px;
+}
+
+.merit__bell {
+	display: block;
+	background: url(../img/bell.png) no-repeat left center;
+	padding: 22px 0px 20px 60px;
+}
+.merit__storm {
+	display: block;
+	background: url(../img/storm.png) no-repeat left center;
+	padding: 22px 0px 20px 60px;
+}
+
+.merit__camera {
+	display: block;
+	background: url(../img/camera.png) no-repeat left center;
+	padding: 22px 0px 20px 60px;
+}
+
+.merit__paragraph {
+ 	display: inline;
+ 	font-size: 16px;
+ 	font-weight: bold;
+ 	color: #4e8598;
+ 	margin-right: 35px;
+ 	
+ }
+ 
+ .merit__paragraph-grey {
+ 	display: inline;
+ 	font-size: 15px;
+ 	color: #b0b2b3;
+ 	line-height: 24px;
+ 
+ }
+
+ 
+
+/* почему ко мне обращаются */
+
+.items {
+	margin-bottom: 64px;
+
+}
+
+.items__item {
+	width: 195px;
+	text-align: center;
+	float: left;
+	margin-right: 150px;
+}
+
+.items__item:nth-child(1) {
+	margin-left: 43px;
+	width: 180px;
+}
+
+.items__item:nth-child(3) {
+	margin-right: 0px;
+	width: 215px;
+}
+
+.items__digit {
+	font-size: 30px;
+	text-transform: uppercase; /* заглавные буквы */
+	padding: 26px 32px;
+	border: 1px solid  #2f383b;
+	border-radius: 50%;
+	display: inline-block;
+}
+
+.items__digit:hover {
+	background: #2f383b;
+	color: #fff;
+}
+.items__title {
+	font-weight: bold;
+	font-size: 16px;
+	margin-top: 18px;
+}
+
+.contact {
+	text-align: center;
+	margin-bottom: 75px;
+}
+
+
+.contact__start {
+	display: block;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 22px;
+	
+	margin-bottom: 25px;
+}
+
+.contact__paragraph {
+	width: 417px;
+	margin: 0 auto;
+	margin-bottom: 30px;
+	color: #2f383b;
+	font-size: 14px;
+	line-height: 23px;
+}
+
+.button-fill {
+	border: none;
+	background: #2f383b;
+}
+.button-fill:hover {
+	color: #fff;
+	background: #4e636a;
+}
+
+.button-fill:active {
+	background: #fff;
+	color: #2f383b;
+}
+
+
+
+
+/* подвал */
+
+footer {
+	background: #2f383b;
+	font-size: 13px;
+	color: #fff;
+	line-height: 38px;
+	padding: 35px 0;
+}
+
+.page-footer__copyright {
+	width: 210px;
+	opacity: .50; /* прозрачность элемента */
+	margin: 0;
+	float: left;
+}
+
+.page-footer__name {
+	width: 210px;
+	margin: 0;
+	margin-left: 155px;
+
+	float: left;
+	text-align: center;
+
+	opacity: .50; /* прозрачность элемента */
+}
+
+.page-footer__link {
+	font: inherit;
+	color: #fff;
+	text-decoration: none;
+	border-bottom: 1px dashed #fff;	
+	margin-left: 155px;
+}
+
+.page-footer__link:hover {
+	border-bottom: transparent;
+}
+

@@ -1,0 +1,467 @@
+ @font-face {
+    font-family: 'Museo Sans Cyrl 900';
+    src: url('../fonts/MuseoSansCyrl-900.eot');
+    src: url('../fonts/MuseoSansCyrl-900.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/MuseoSansCyrl-900.woff2') format('woff2'),
+        url('../fonts/MuseoSansCyrl-900.woff') format('woff'),
+        url('../fonts/MuseoSansCyrl-900.ttf') format('truetype'),
+        url('../fonts/MuseoSansCyrl-900.svg#MuseoSansCyrl-900') format('svg');
+}
+
+@font-face {
+    font-family: 'Museo Sans Cyrl 300';
+    src: url('../fonts/MuseoSansCyrl-300.eot');
+    src: url('../fonts/MuseoSansCyrl-300.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/MuseoSansCyrl-300.woff2') format('woff2'),
+        url('../fonts/MuseoSansCyrl-300.woff') format('woff'),
+        url('../fonts/MuseoSansCyrl-300.ttf') format('truetype'),
+        url('../fonts/MuseoSansCyrl-300.svg#MuseoSansCyrl-300') format('svg');
+}
+
+@font-face {
+    font-family: 'Museo Sans Cyrl 100';
+    src: url('../fonts/MuseoSansCyrl-100.eot');
+    src: url('../fonts/MuseoSansCyrl-100.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/MuseoSansCyrl-100.woff2') format('woff2'),
+        url('../fonts/MuseoSansCyrl-100.woff') format('woff'),
+        url('../fonts/MuseoSansCyrl-100.ttf') format('truetype'),
+        url('../fonts/MuseoSansCyrl-100.svg#MuseoSansCyrl-100') format('svg');
+}
+
+@font-face {
+	font-family: 'Natasha';
+	src: url('../fonts/Natasha.eot'); IE9 Compat Modes
+	src: url('../fonts/Natasha.eot?#iefix') format('embedded-opentype'), IE6-IE8
+    url('../fonts/Natasha.woff2') format('woff2'), Super Modern Browsers
+    url('../fonts/Natasha.woff') format('woff'), Pretty Modern Browsers
+    url('../fonts/Natasha.ttf')  format('truetype'), Safari, Android, iOS
+    url('../fonts/Natasha.svg#Natasha') format('svg'); Legacy iOS
+}
+ 
+
+body {
+	font-family: 'Museo Sans Cyrl 300', Arial, sans-serif;
+	padding: 0px;
+	margin: 0px;
+}
+
+div, p, input, button, form {
+	box-sizing: border-box;
+}
+
+.container {
+	width: 940px;
+	margin: 0px auto;
+}
+
+h1 {
+	font-family: 'Natasha', Arial, sans-serif;
+	color: #fff;
+	font-weight: 300;
+	font-size: 49px;
+	letter-spacing: 0.12em;
+	text-transform: uppercase;
+	line-height: 55px;
+
+	text-align: center;
+	margin: 0px 0px 15px 0px;
+}
+
+h2 {
+	font-family: 'Natasha', Arial, sans-serif;
+	color: #22241b;
+	font-weight: 300;
+	font-size: 37px;
+	letter-spacing: 0.12em;
+	text-transform: uppercase;
+	line-height: 55px;
+
+	text-align: left;
+	margin: 0px;
+}
+
+h3{
+	font-family: 'Natasha', Arial, sans-serif;
+	color: #888886;
+	font-weight: 300;
+	font-size: 22px;
+	letter-spacing: 0.12em;
+	text-transform: uppercase;
+	line-height: 55px;
+
+	text-align: left;
+	margin: 0px;
+}
+
+/* --- ШАПКА / Header --- */
+
+.header {
+	background: url(../img/bg-header.png) no-repeat center top / cover;
+}
+
+.header__top-block {
+	display: flex;
+	justify-content: space-between;
+	padding: 40px 0px 280px 0px;
+	align-items: center;
+}
+
+.header__menu {
+	display: flex;
+	margin: 0px;
+}
+.menu__item {
+	display: flex;
+	margin-right: 48px;
+}
+
+.menu__item:last-child {
+	margin-right: 0px;
+}
+.menu__item a {
+	color: #fff;
+	font-weight: 900;
+	text-decoration: none;
+	font-size: 15px;
+	letter-spacing: 0.12em;
+	text-transform: uppercase;
+	line-height: 48px;
+}
+
+.header__mail {
+	color: #fff;
+	font-weight: 300;
+	font-size: 15px;
+	letter-spacing: 0.12em;
+	line-height: 20px;
+	text-decoration: none;
+}
+
+.header__mail:after {
+	content:'';
+	display: block;
+	background: #fff;
+	width: 100%;
+	height: 1px;
+	margin-top: 5px;
+}
+
+.header__title {
+	margin-bottom: 265px;
+}
+
+.title__text {
+	color: #fff;
+	font-weight: 100;
+	font-size: 29px;
+	letter-spacing: 0.02em;
+	text-transform: uppercase;
+	line-height: 55px;
+
+	text-align: center;
+	margin: 0px;
+}
+
+.header__arrow {
+	text-align: center;
+	padding-bottom: 82px;
+}
+
+
+/* --- Обо мне  / about-me --- */
+
+.about-me__title {
+	padding-top: 75px;
+	margin-bottom: 55px;
+}
+
+.about-me__content {
+	display: flex;
+	justify-content: space-between;
+}
+
+.about-me__backgroung {
+	margin-right: 45px;
+}
+
+.background__list {
+	padding: 0px;
+	margin: 0px;
+}
+
+.background__item {
+	color: #22241b;
+	font-weight: 300;
+	font-size: 15px;
+	letter-spacing: 0.02em;
+	line-height: 27px;
+
+	display: flex;
+	margin: 0px 0px 30px 0px;
+	width:100%;
+	
+}
+
+.background__item:nth-child(1) {
+	margin-top: 20px;
+}
+
+.background__item:nth-child(3) {
+	margin-bottom: 0px;
+}
+
+.background__text {
+	margin: 0px;
+}
+
+
+.merit__list {
+	display: flex;
+	padding: 0px;
+	margin: 30px 0px 47px 20px;
+}
+
+.merit__item {
+	display: block;
+	width: 103px;
+	margin-right: 60px;
+}
+
+.merit__item:nth-child(3) {
+	margin-right: 20px;
+}
+
+.merit__digital {
+	background: url(../img/quadro.png) no-repeat center;
+	
+	color: #204d15;
+	font-weight: 100;
+	font-size: 20px;
+	letter-spacing: 0.12em;
+	line-height: 103px;
+	text-transform: uppercase;
+
+	text-align: center;
+	width: 103px;
+	height: 103px;
+	margin: 0px;
+}
+
+.merit__text {
+	color: #22241b;
+	font-weight: 100;
+	font-size: 12px;
+	letter-spacing: 0.02em;
+	line-height: 18px;
+	text-transform: uppercase;
+
+	text-align: center;
+	margin-top: 25px;
+}
+
+.about-me__contact-link {
+	display: flex;
+	margin-top: 10px;
+}
+
+.contact__list {
+	padding: 0px;
+	margin: 0px 43px 0px 0px;
+}
+
+.contact__item {
+	display: block;
+	/* border-bottom: 1px solid #becbbb; */
+	margin-bottom: 10px;
+}
+
+
+.contact__item:after {
+	content:'';
+	display: block;
+	background: #becbbb;
+	width: 167px;
+	height: 1px;
+}
+
+.contact__item_second:after {
+	content:'';
+	display: block;
+	background: #becbbb;
+	width: 110px;
+	height: 1px;
+}
+
+.contact__item_third:after {
+	content:'';
+	display: block;
+	background: #becbbb;
+	width: 136px;
+	height: 1px;
+}
+
+.contact__item a {
+	color: #204d15;
+	font-weight: 300;
+	font-size: 14px;
+	letter-spacing: 0.12em;
+	line-height: 25px;
+	text-decoration: none;
+}
+
+.contact__write-me {
+	background: url(../img/grey-ring.png) no-repeat left top;
+	font-weight: 300;
+	font-size: 14px;
+	color: #22241b;
+	letter-spacing: 0.02em;
+	line-height: 55px;
+	font-style: italic;
+
+	padding-left: 84px; 
+	padding-top: 7px;
+}
+
+/* --- Навыки / Skills --- */
+
+.skills__title {
+	margin: 70px 0px 62px 0px;
+}
+
+.skills__list {
+	display: flex;
+	justify-content: space-between;
+	margin: 0px;
+	padding: 0px;
+}
+
+.skills__item {
+	display: flex;
+}
+
+.skills__digital {
+	background: url(../img/ring.png) no-repeat center;
+	font-weight: 100;
+	font-size: 13px;
+	color: #204d15;
+	letter-spacing: 0.12em;
+	line-height: 61px;
+	text-transform: uppercase;
+
+	text-align: center;
+	width: 61px;
+	height: 61px;
+	margin: 0px;
+}
+
+.skills__text {
+	font-weight: 900;
+	font-size: 15px;
+	color: #22241b;
+	letter-spacing: 0.12em;
+	line-height: 55px;
+	text-transform: uppercase;
+	margin-left: 25px;
+}
+
+/* --- Работы / Works --- */
+
+.works__title {
+	margin: 78px 0px 55px 0px;
+}
+
+.works__list {
+	display: flex;
+	justify-content: space-between;
+	margin: 0px;
+	padding: 0px;
+}
+
+.works__icon {
+	display: flex;
+	background: url(../img/324ovgl1bwm-wil-stewart.png) no-repeat;
+}
+
+.works__icon:nth-child(2) {
+	background: url(../img/34mvn5nt1ls-thomas-lefebvre.png) no-repeat;
+}
+
+.works__icon:nth-child(3) {
+	background: url(../img/gqr4stz24km-ales-krivec.png) no-repeat;
+}
+
+.works__item {
+	width: 300px;
+	height: 300px;
+	border-radius: 3px;
+	
+	-moz-transition: all 0.5s ease;
+    -webkit-transition-property: all;
+    -webkit-transition-duration: 0.5s;
+    -webkit-transition-timing-function: ease;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+
+.works__text {
+	font-size: 15px;
+	color: #ffffff;
+	letter-spacing: 0.02em;
+	line-height: 40px;
+	text-transform: uppercase;
+		
+	opacity: 0;
+	-moz-transition: all 0.5s ease;
+    -webkit-transition-property: all;
+    -webkit-transition-duration: 0.5s;
+    -webkit-transition-timing-function: ease;
+    margin: 0px;
+  	padding-top: 130px;
+  }
+
+.works__link {
+	font-size: 13px;
+	color: #ffffff;
+	letter-spacing: 0.02em;
+	line-height: 20px;
+	text-decoration: none;
+	border-bottom: 1px solid #fff;
+	padding-bottom: 2px;
+
+	opacity: 0;
+	-moz-transition: all 0.5s ease;
+    -webkit-transition-property: all;
+    -webkit-transition-duration: 0.5s;
+    -webkit-transition-timing-function: ease;
+    margin: 0px;
+	
+}
+
+.works__item:hover {
+	background: rgba(0,0,0,0.5);
+}
+
+.works__item:hover .works__text  {
+	opacity: 1;
+}
+
+.works__item:hover .works__link  {
+	opacity: 1;
+}
+
+
+/* --- Подвал / Footer --- */
+
+.footer__text {
+	font-weight: 300;
+	font-size: 11px;
+	color: #22241b;
+	letter-spacing: 0.12em;
+	line-height: 55px;
+	text-transform: uppercase;
+
+	margin: 110px 0px 95px 0px;
+}

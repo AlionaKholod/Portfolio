@@ -1,0 +1,135 @@
+
+/* Планшеты Tablets 1024px-768px */
+
+@media screen and (max-width: 1024px) {
+	.container {
+		width: 90%;
+	}
+
+	.menu__item {
+		margin-right: 20px;
+	}
+
+	.about-me__content {
+		display: block; 
+	}
+
+	.about-me__backgroung {
+		margin-bottom: 40px;
+	}
+
+	.works__list {
+		display: block;
+	}
+
+	.works__icon {
+		margin-bottom: 20px;
+		flex-direction: column;
+		align-items: center;
+		background-position: center;
+	}
+
+	.works__icon:nth-child(2) {
+		background-position: center;
+	}
+	
+	.works__icon:nth-child(3) {
+		background-position: center;
+	} 
+
+	h2 {
+	 	text-align: center;
+	 }
+
+	h3 {
+	 	text-align: center;
+	 }
+
+	 .merit__list {
+	 	justify-content: center;
+	 }
+
+}
+
+/* Мобильные Mobile 768px-368px */
+
+@media screen and (max-width: 768px) {
+	.container {
+		width: 90%;
+	}
+
+	.header__menu {
+		display: none;
+	}
+
+	.background__item {
+		width: 100%;
+	}
+
+	.merit__list {
+    	flex-direction: column;
+    	align-items: center;
+   	}
+
+   	.merit__item:nth-child(3) {
+   		margin-right: 60px;
+   	}
+
+   	.merit__text {
+	    margin-top: 5px;
+	    margin-bottom: 20px;
+	}
+
+	.about-me__contact-link {
+	    display: flex;
+	    flex-direction: column;
+	    align-items: center;
+	}
+
+   	.contact__write-me {
+   		margin-top: 30px;
+   	}
+
+   	.skills__list {
+   		flex-direction: column;
+    	margin-left: 20%;
+   	}
+
+   	.skills__item {  
+    	margin-bottom: 20px;
+    }
+
+	.skills__item:nth-child(4) {
+		margin-bottom: 0px;
+	}
+}
+
+/* Мобильные Mobile 368px-0px */
+
+@media screen and (max-width: 368px) {
+	.header__mail {
+		font-size: 12px;
+	}
+
+	.header__mail:after {
+		content:'';
+		display: block;
+		margin-top: 0px;
+	}
+
+	h1 {
+		margin-bottom: 40px;
+	}
+
+	.title__text {
+		line-height: 35px;
+	}
+
+	.header__title {
+		margin-bottom: 150px;
+	}
+
+	.header__top-block {
+		padding-bottom: 150px;
+	}
+}

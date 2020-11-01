@@ -1,0 +1,191 @@
+ 
+
+body {
+	font-family: 'Roboto Slab', serif;
+	padding: 0px;
+	margin: 0px;
+}
+
+ul, li {
+	display: block;
+	padding: 0px;
+	margin: 0px;
+}
+
+* { 
+	box-sizing: border-box;
+}
+
+a, a:hover, a:active, a:focus,
+button, input, button:hover, button:active, button:focus,
+input:focus, input:active {
+	text-decoration: none;
+	outline: none;
+	transition: 0.2s;
+}
+
+.container {
+	width: 90%;
+	margin: 0px auto;
+}
+
+
+h1 {
+	color: #191970;
+	font-weight: 900;
+	font-size: 47px;
+	letter-spacing: 0.15em;
+	text-transform: uppercase;
+	line-height: 55px;
+
+	text-align: center;
+}
+
+h2 {
+	color: #FFA500;
+	font-weight: 900;
+	font-size: 45px;
+	letter-spacing: 0.12em;
+	text-transform: uppercase;
+	line-height: 55px;
+
+	text-align: center;
+	margin: 150px 0px 50px 0px;
+}
+
+/* --- ШАПКА / Header --- */
+
+.header {
+	background: url(../img/header_bg.png) no-repeat center / cover;
+	padding-top: 15%;
+}
+
+
+.title__text {
+	color: #0000FF;
+	font-weight: 900;
+	font-size: 25px;
+	letter-spacing: 0.05em;
+	line-height: 30px;
+
+	text-align: center;
+	
+	margin: 100px 0px 100px 0px;
+
+}
+
+.title__text a {
+	color: #0000FF;
+	font-weight: 900;
+	font-size: 25px;
+	letter-spacing: 0.05em;
+	line-height: 25px;
+}
+
+.header__arrow {
+	text-align: center;
+	background: transparent;
+    border: none;
+    margin: 0px auto;
+	margin-left: 47%;
+	margin-bottom: 10%;
+ }
+
+.fa-chevron-down {
+	font-size: 40px;
+	color: #BA55D3;
+	letter-spacing: 0.46em;
+	line-height: 82px;
+
+}
+
+/* Секция About */
+
+.about__text {
+	color: #000;
+	font-weight: 400;
+	font-size: 30px;
+	letter-spacing: 0.05em;
+	line-height: 40px;
+
+	text-align: center;
+}
+
+.about__image {
+	display: flex;
+	justify-content: space-between;
+
+	margin: 50px 0px 90px 0px;
+}
+
+.about__photo {
+	display: block;
+	width: 32%;
+}
+
+ 
+ /* Секция Contacts */
+
+ .contacts__text {
+	color: #000;
+	font-weight: 400;
+	font-size: 30px;
+	letter-spacing: 0.05em;
+	line-height: 40px;
+
+	text-align: center;
+	margin-bottom: 100px;
+}
+
+
+/* --- Подвал / Footer --- */
+
+#footer {
+	background: #000;
+	box-shadow: 7px 11px 131px 0px rgba(0,0,0,0.3);
+}
+
+.footer__content {
+	display: flex;
+	justify-content: space-between;
+}
+
+.footer__copyright {
+	font-size: 14px;
+	color: rgba(250, 247, 247, 1);
+	line-height: 17px;
+	font-weight: 100;
+
+	padding: 50px 0px 50px 0px;
+}
+
+.footer__contacts {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+
+	padding: 45px 0px 50px 0px;
+}
+
+.footer-icon {
+	border-color: #fff;
+	color: #fff;
+	font-size: 16px;
+	border: 1px solid #fff;
+	border-radius: 50%;
+	
+	padding: 7px;
+	margin-right: 20px;
+}
+
+.footer-icon:hover {
+	background: #fff;
+	color: #000;
+}
+
+.footer__phone {
+	font-size: 16px;
+	color: #fff;
+	letter-spacing: 0.02em;
+	line-height: 20px;
+}

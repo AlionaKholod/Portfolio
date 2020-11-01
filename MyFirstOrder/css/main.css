@@ -1,0 +1,107 @@
+
+@media screen and (min-width: 1450px) {
+	
+	h1 {
+		font-size: 60px;
+	    line-height: 65px;
+	}
+
+	.title__text {
+		font-size: 30px;
+	    line-height: 35px;
+	}
+
+	.title__text a {
+		font-size: 30px;
+		line-height: 35px;
+	}
+}
+
+
+@media screen and (max-width: 779.98px) {
+	.about__image {
+		flex-direction: column;
+		margin-bottom: 30px;
+	}
+
+	.about__photo {
+		margin-bottom: 30px;
+		width: 100%;
+	}
+
+	h1 {
+		font-size: 37px;
+	    line-height: 45px;
+	}
+
+	.title__text {
+		font-size: 20px;
+	    line-height: 25px;
+	}
+
+	.title__text a {
+		font-size: 20px;
+		line-height: 25px;
+	}
+
+}
+
+
+@media screen and (max-width: 590.98px) {
+	h1 {
+		font-size: 30px;
+	    line-height: 40px;
+	}
+
+	.title__text {
+		font-size: 18px;
+	    line-height: 23px;
+	}
+
+	.title__text a {
+		font-size: 18px;
+		line-height: 23px;
+	}
+
+	.about__text {
+		font-size: 24px;
+		line-height: 28px;
+	}
+
+	.contacts__text {
+		font-size: 24px;
+		line-height: 28px;
+	}
+
+} 
+
+@media screen and (max-width: 485.98px) {
+	h1 {
+		font-size: 27px;
+	    line-height: 35px;
+	}
+
+	.title__text {
+		font-size: 18px;
+	    line-height: 23px;
+	}
+
+	.title__text a {
+		font-size: 18px;
+		line-height: 23px;
+	}
+
+	h2 {
+		font-size: 35px;
+		line-height: 40px;
+
+		margin: 100px 0px 30px 0px;
+	}
+
+} 
+
+
+
+
+
+
